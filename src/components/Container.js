@@ -1,24 +1,10 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
-import NavBar from './components/NavBar'
-import Container from './components/Container'
 
-class App extends Component {
+class Container extends Component {
   render() {
     return (
-      <>
-        <NavBar />
-        {/* <nav class="header">
-          <img src="./images/logo (1).png" />
-          <div class="top-links">
-            <a>RSS</a>
-            <a>FAQ</a>
-            <a>Back to GitHub</a>
-          </div>
-        </nav> */}
-
-        <Container />
-        {/* <div class="container">
+      <div>
+        <div class="container">
           <section class="main-body">
             <div class="outer-image">
               <img
@@ -277,9 +263,10 @@ class App extends Component {
               <p>All rights reserved.</p>
             </div>
           </footer>
-        </div> */}
-      </>
+        </div>
+      </div>
     )
   }
 }
-export default App
+
+export default Container
