@@ -49,6 +49,7 @@ class Container extends Component {
           {cats.map(cat => {
             return (
               <Cat
+                key={cat.name}
                 imageUrl={cat.imageUrl}
                 name={cat.name}
                 number={cat.number}
