@@ -1,6 +1,6 @@
 # Octocats
 
-<img src="./src/images/Octocats >
+<img src="/src/images/Octocats.png>
 
 This was my first React project and I thought it was fun. In addition to getting my hands dirty understanding components, I was pleased to be able to design something fun and visually pleasing.
 
