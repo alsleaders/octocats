@@ -46,17 +46,19 @@ class Container extends Component {
     return (
       <>
         <div class="container">
-          {cats.map(cat => {
-            return (
-              <Cat
-                key={cat.name}
-                imageUrl={cat.imageUrl}
-                name={cat.name}
-                number={cat.number}
-                makerUrl={cat.makerUrl}
-              />
-            )
-          })}
+          <section class="main-body">
+            {cats.map(cat => {
+              return (
+                <Cat
+                  key={cat.name}
+                  imageUrl={cat.imageUrl}
+                  name={cat.name}
+                  number={cat.number}
+                  makerUrl={cat.makerUrl}
+                />
+              )
+            })}
+          </section>
           <Footer />
         </div>
       </>
