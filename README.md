@@ -7,6 +7,7 @@ This was my first React project and I really loved it.  I thought it was fun and
 <h3> Planned Updates </h3>
 In the future I intend to:
 <ul>
-<li> add more cats using the api at https://sdg-octodex.herokuapp.com/ </li>
-<li> make the site more mobile friendly by adding media query breakpoints in the css </li>
+  <li> add more cats using the api at https://sdg-octodex.herokuapp.com/ </li>
+  <li> make the site more mobile friendly by adding media query breakpoints in the css </li>
+  <li> add functionality to the nav bar </li>
 </ul>
