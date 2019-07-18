@@ -72,7 +72,7 @@ class Container extends Component {
                   image={cat.image}
                   name={cat.name}
                   number={cat.number}
-                  makerUrl={cat.authors}
+                  makerURL={cat.authors[0].image}
                 />
               )
             })}
